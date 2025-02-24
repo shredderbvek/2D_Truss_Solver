@@ -250,7 +250,7 @@ for node_pair in connectivity_mat:
     x2, y2 = nodal_coord[node_pair[1]-1]
     draw_line(x1, y1, x2, y2, "--", "c")
 # Deformed view
-scale = 17311  # Scale factor for visualizing the deformation
+scale = 20000  # Scale factor for visualizing the deformation
 for node_pair in connectivity_mat:
     # Original coordinates of the two nodes
     x1, y1 = nodal_coord[node_pair[0] - 1]
